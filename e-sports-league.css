@@ -134,6 +134,41 @@ nav ul {
     padding: 1.25rem;
 }
 
+/* = FOOTER INFO = */
+.info {
+    background-color: #171720;
+    border-bottom: 2px solid #39393f;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    justify-content: center;
+
+}
+
+.info li{
+    list-style: none;
+    padding-bottom: 2px;
+}
+.info h3 {
+    color: #f8f4f8;
+    padding-bottom: 2rem;
+}
+.info a{
+    text-decoration: none;
+    color: #a498a8;
+}
+
+footer {
+    background-color: #171720;
+}
+
+footer p {
+    color: #a498a8;
+    text-align: center;
+    padding: 0.75rem;
+}
+
+
 /* = TEAM BATLLES = */
 .schedule {
     display: flex;
