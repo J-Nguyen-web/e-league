@@ -1,0 +1,27 @@
+@supports (animation-timeline: scroll()){
+    header {
+        position: relative;
+        overflow: hidden;
+        /* = STATIC PARALAX =
+        background-image: url("./images/hero-bg.webp");
+        background-size: cover;
+        background-position:top;
+        background-attachment: fixed; */
+    }
+
+    .headerBackground {
+        position: absolute;
+        inset: 0; /* full cover*/
+        width: 100%;
+        height: 120%; /* bigger so we can move it*/
+        object-fit: cover;
+        animation: paralaxMove linear both;
+        animation-timeline: scroll();
+        animation-range: 0 300px;        /* how many pixels of scrolling affecting the animation */
+    }
+}
+    @keyframes paralaxMove {
+        from { transform: translateY(0);    }
+        to {transform: translateY(-80px);   } /* smaller movement = further distance look*/
+    }
+   
