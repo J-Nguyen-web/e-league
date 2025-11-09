@@ -30,12 +30,13 @@ The main goal was - **component-level design without Tailwind / Bootstrap**
 ```
 git clone https://github.com/J-Nguyen-web/e-league.git
 open e-league.html or in VS Code - Live server
+```
 
 ## Tech
 |Tool              | Purpose  |
 |---|---|
-|HTML5
-|CSS3
+|HTML5 | markup |
+|CSS3  | styling |
 | Google Fonts: PT Sans / PT Serif|typography|
 
 
