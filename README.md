@@ -11,3 +11,12 @@ This project demonstrates layout architecture, typography, brand color mapping a
 
 |Background Banner & Navigation | Upcoming Matches |
 |---|---|
+
+## CSS Highlights
+
+| Concept | Where |
+|---|---|
+| flexbox layout system | navigation, about columns, footer columns, schedule list|
+| absolute positionin | welcome screen imagae background paralax |
+| responsive typography scale | url imported fonts |
+| semantic color variables (manual palette) |
